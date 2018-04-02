@@ -17,7 +17,7 @@ add.addEventListener('click', e => {
     trash.classList.add('fas', 'fa-trash-alt');
     trash.addEventListener('click', e => {
         container.remove();
-    })
+    });
     container.append(text, trash);
     output.append(container);
-})
+});
